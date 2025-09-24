@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+    display: inline-grid;
+    scrollbar-width: none;
+}
+header {
+    text-align: center;
+    background-color: #3b3b3b;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.chart-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+.chart {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #930221 0% 60%,  
+        #160f7c 60% 90%,  
+        #07601a 90% 100%   
+    );
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(227, 220, 220);
+    overflow-x: hidden;
+}
+
+#Titelrad{
+    display: flex;
+}
+#Titelrad img{
+    width: auto;
+    height: 50px;
+    margin-top: 7px;
+    margin-left: auto;
+    transition: transform 0.3s ease;
+
+}
+#Titelrad img.StangLage {
+    transform: rotate(180deg);
+}
+#Titelrad img.OpenLage {
+    transform: rotate(90deg);
+}
+
+.environmental-info {
+    background-color: #f0f8ff; 
+    border: 1px solid #34b445; 
+    padding: 15px;
+    border-radius: 8px;
+}
+.environmental-info h2 {
+    color: #34b445;
+}
+.legend {
+    margin-top: 10px;
+}
+.symbol {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.symbol img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.hoodie-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+.call-to-action {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+.testimonial {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 10px;
+}
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+.owner-info {
+    margin-top: 10px;
+}
+.owner-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
